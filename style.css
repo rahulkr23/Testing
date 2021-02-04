@@ -1,0 +1,111 @@
+/* CSS Reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('1.jpg');
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.left{
+    display: inline-block;
+  
+    position: absolute;
+    left: 60px;
+    top: 5px;
+
+}
+.left img{
+    width: 150px;
+    border-radius: 60px;s
+}
+.left div{
+    text-align: center;
+    line-height: 18px;
+    font-size: 24px;
+}
+.mid{
+    margin: 20px auto;
+    display:block;
+    width: 33%;
+    background-color: black;
+    
+
+
+}
+.right{
+    position:absolute;
+    right: 24px;
+    top: 20px;
+    display: inline-block;
+    
+    
+   
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+   
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:rgb(196, 153, 153);
+
+
+
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  border: 2px solid grey;
+}
+.btn:hover{
+  background-color: rgb(105, 88, 88); rgb(80, 60, 60)
+}
+.container{
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: 200px 100px;
+    width: 33%;
+    padding: 10px 75px;
+    font-size: 15px
+
+   
+}
+.form-group input{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 15px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.container h1{
+    text-align: center;
+}
+
+.container .btn{
+    display: block;
+    width: 70px auto;
+    margin: auto;
+}
+
